@@ -1,11 +1,28 @@
 .about {
   display: flex;
+  margin: 2em;
 }
 
 .aboutUs {
-  display: block;
+margin-top: 3em;
+width: 30em;
+margin-left: 2em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .bg {
-  background-image: url(firewood.png);
+background-image: url(firewood.png);
+margin-left: 6em;
+width: 590px;
+height: 575px;
+margin-top: 6em;
 }
