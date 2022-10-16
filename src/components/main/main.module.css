@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  margin-top: 0;
+  padding-top: 0;
+  height: 785px;
+  min-width: 100%;
+  min-height: 780px;
+  background-attachment: scroll;
+  background: url(main_bg.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.title {
+position: absolute;
+text-align: center;
+left: 35%;
+top: 30%;
+margin: 0;
+padding: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 100px;
+color: #FFFFFF;
+}
+
+.miniTitle {
+  position: absolute;
+  text-align: left;
+  top: 60%;
+  left: 12%;
+  font-family: 'Roboto';
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.stick {
+position: absolute;
+width: 930px;
+height: 3px;
+left: 15%;
+top: 850px;
+
+background: #E97F04;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}

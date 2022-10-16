@@ -1,0 +1,54 @@
+.Header {
+display: flex;
+position: absolute;
+top: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.contacts {
+  position: absolute;
+  top: 20px;
+  left: 33em;
+  text-align: right;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  font-size: 30px;
+  list-style: none;
+}
+
+.h2 {
+position: absolute;
+left: 100px;
+top: 20px;
+width: 10em;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.p {
+  position: absolute;
+  left: 100px;
+  top: 80px;
+  width: 420px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 48px;
+  
+  text-align: left;
+  
+  color: #FFFFFF;
+  }
+ 
