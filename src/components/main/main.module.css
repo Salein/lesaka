@@ -1,3 +1,8 @@
+.wrap {
+  background: #000;
+}
+
+
 .main {
   display: flex;
   margin-top: 0;
@@ -10,7 +15,8 @@
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: cover;   
+        opacity: 0.6; 
 }
 
 .title {
@@ -36,6 +42,7 @@ color: #FFFFFF;
   color: #FFFFFF;
   font-weight: 400;
   font-size: 40px;
+  opacity: 1;
 }
 
 .stick {
@@ -44,7 +51,7 @@ width: 930px;
 height: 3px;
 left: 15%;
 top: 850px;
-
 background: #E97F04;
 transform: matrix(1, 0, 0, -1, 0, 0);
+opacity: 1;
 }

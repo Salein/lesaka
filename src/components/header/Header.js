@@ -1,9 +1,9 @@
 import React from "react"
 import style from './Header.module.css'
+require('typeface-roboto')
 
 
 const Header = () => {
-
 
   return(
     <div className={style.Header}>

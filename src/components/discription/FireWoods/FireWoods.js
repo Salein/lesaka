@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './FireWoods.module.css'
-
+require('typeface-roboto')
 
 
 const FireWoods = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './firePlace.module.css'
-
+require('typeface-roboto')
 
 
 const FirePlace = () => {
