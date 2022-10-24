@@ -3,7 +3,7 @@ import style from './headline.module.css'
 
 
 
-const Headline = () => {
+const HeadLine = () => {
 
     return(
         <div>
@@ -15,4 +15,4 @@ const Headline = () => {
 }
 
 
-export default Headline
+export default HeadLine

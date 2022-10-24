@@ -5,7 +5,7 @@ import Header from './components/header/Header'
 import About from './components/about_us/about'
 import Discription from './components/discription/discription'
 import Products from './components/products/products'
-import Headline from "./components/headline/Headline"
+import HeadLine from "./components/headline/HeadLine"
 require('typeface-roboto')
 
 
@@ -19,7 +19,7 @@ function App() {
       <Discription />
       <h1 className={style.title}>Продукция</h1>
       <Products />
-      <Headline />
+      <HeadLine />
     </div>
   );
 }
