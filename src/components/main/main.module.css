@@ -23,7 +23,7 @@
 position: absolute;
 text-align: center;
 left: 35%;
-top: 30%;
+top: 35%;
 margin: 0;
 padding: 0;
 font-family: 'Roboto';
@@ -36,7 +36,7 @@ color: #FFFFFF;
 .miniTitle {
   position: absolute;
   text-align: left;
-  top: 60%;
+  top: 70%;
   left: 12%;
   font-family: 'Roboto';
   color: #FFFFFF;
