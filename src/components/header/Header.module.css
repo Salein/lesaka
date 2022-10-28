@@ -12,12 +12,11 @@ color: #FFFFFF;
 
 .contacts {
   position: absolute;
-  top: 20px;
   left: 33em;
   text-align: right;
   font-style: normal;
-  font-weight: 800;
-  line-height: 48px;
+  font-weight: 700;
+  line-height: 23px;
   font-size: 30px;
   list-style: none;
 }

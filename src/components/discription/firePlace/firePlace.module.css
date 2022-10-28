@@ -1,7 +1,7 @@
 .wrap {
   display: flex;
   margin-top: 5em;
-  padding: 2em;
+  
 }
 
 .bg {
@@ -9,6 +9,7 @@
   width: 590px;
   height: 379px;
   margin-top: 1em;
+  margin-left: 4em;
 }
 
 .stick {
@@ -20,7 +21,6 @@ transform: matrix(0, 1, 1, 0, 0, 0);
 }
 
 .text {
-margin-left: 5px;
 width: 40%;
 height: 551px;
 font-family: 'Roboto';
