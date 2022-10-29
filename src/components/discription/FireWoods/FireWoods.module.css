@@ -53,9 +53,25 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 @media screen and (max-width: 500px) {
+  .bg {
+    background: url(fireWoods_bg_mobile.png) no-repeat;
+    width: 360px;
+    height: 440px;
+  }
 
-}
+  .text {
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 24px;
+  }
 
-@media screen and (max-width: 400px) {
+  .stick {
+    margin-top: 0;
+  }
 
+  .title {
+    font-size: 26px;
+    padding-top: 1rem;
+  }
 }

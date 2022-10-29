@@ -67,9 +67,10 @@ margin-top: 6em;
   }
 
   .bg {
+    background: url(firewood_mobile.png) no-repeat center center;
     width: 350px;
     height: 240px;
-    margin-top: auto;
+    margin-top: 0;
     margin-left: 10px;
   }
 }
