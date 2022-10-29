@@ -111,11 +111,11 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   .miniTitle {
     top: 22em;
     font-size: 22px;
-    left: 15%;
+    left: 10%;
     text-align: center;
   }
 
   .stick {
-    width: 15em;
+    width: 17em;
   }
 }
