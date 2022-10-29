@@ -103,7 +103,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 @media screen and (max-width: 500px) {
   .title {
-    top: 85%;
+    top: 65%;
     font-size: 4em;
     left: 27%;
   }
