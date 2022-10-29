@@ -58,6 +58,7 @@ margin-top: 6em;
     font-weight: 100;
     line-height: 24px;
     margin-left: 0;
+    font-family: 'Roboto';
   }
 
   .title {
@@ -66,7 +67,7 @@ margin-top: 6em;
   }
 
   .bg {
-    width: 340px;
+    width: 350px;
     height: 240px;
     margin-top: auto;
     margin-left: 10px;
