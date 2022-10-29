@@ -111,7 +111,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   .miniTitle {
     top: 22em;
     font-size: 22px;
-    left: 10%;
+    left: 5%;
     text-align: center;
   }
 
