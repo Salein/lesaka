@@ -103,13 +103,13 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 @media screen and (max-width: 500px) {
   .title {
-    top: 33%;
+    top: 35%;
     font-size: 4em;
-    left: 25%;
+    left: 23%;
   }
 
   .miniTitle {
-    top: 20em;
+    top: 21em;
     font-size: 22px;
     left: 15%;
   }
