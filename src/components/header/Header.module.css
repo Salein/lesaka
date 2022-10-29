@@ -100,8 +100,8 @@ color: #FFFFFF;
 
   @media screen and (max-width: 500px) {
     .contacts {
-      margin-left: 10em;
-      font-size: 12px;
+      margin-left: 12em;
+      font-size: 13px;
       }
 
       .h2 {
