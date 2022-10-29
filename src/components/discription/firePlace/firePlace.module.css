@@ -61,7 +61,7 @@ text-align: left;
   .stick {
     display: inline-block;
     width: 2px;
-    height: 250px;
+    height: 270px;
     background: #E97F04;
     transform: matrix(1, 0, 0, -1, 0, 0);
     margin-left: 20px;
