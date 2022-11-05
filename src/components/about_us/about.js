@@ -1,5 +1,6 @@
 import React from "react"
 import style from './about.module.css'
+import stick from './stick.png'
 require('typeface-roboto')
 
 
@@ -7,6 +8,7 @@ const About = () => {
 
   return(
     <div className={style.about}>
+      <img src={stick} alt='' className={style.stick} />
       <div className={ style.aboutUs}>
         <h2 className={style.title}>О нас</h2>
         <p className={style.p}>Мы занимаемся заготовкой и доставкой целых и колотых дров больше 11 лет. У нас уже тысячи довольных клиентов, которые рекомендуют нас друзьям и знакомым.
