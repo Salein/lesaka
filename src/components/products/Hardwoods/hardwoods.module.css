@@ -1,5 +1,5 @@
 .wrap {
-  width: 415px;
+ 
   height: 734px;
   background: #FFFFFF;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
@@ -32,28 +32,4 @@
 
 bold {
   color: orange;
-}
-
-@media screen and (max-width: 2600px) and (min-width: 1600px) {
-
-}
-
-@media screen and (max-width: 1500px) {
-
-}
-
-@media screen and (max-width: 1100px) {
-
-}
-
-@media screen and (max-width: 800px) {
-
-}
-
-@media screen and (max-width: 500px) {
-
-}
-
-@media screen and (max-width: 400px) {
-
 }

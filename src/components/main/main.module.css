@@ -1,5 +1,4 @@
 .main {
-  display: flex;
   margin: 0;
   padding: 0;
   height: 785px;
@@ -12,13 +11,37 @@
         background-size: cover;   
 }
 
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2 {
+  font-size: 36px;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  font-family: 'Roboto';
+  color:#FFFFFF;
+}
+
+.p {
+  font-size: 28px;
+  margin-left: 2em;
+  font-family: 'Roboto';
+  color:#FFFFFF;
+}
+
+.contacts {
+  text-align: left;
+  font-size: 24px;
+  margin-top: 3.1em;
+  margin-right: 4em;
+  font-family: 'Roboto';
+  color:#FFFFFF;
+}
+
 .title {
-position: absolute;
 text-align: center;
-left: 35%;
-top: 35%;
-margin: 0;
-padding: 0;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 800;
@@ -27,96 +50,9 @@ color: #FFFFFF;
 }
 
 .miniTitle {
-  position: absolute;
-  text-align: left;
-  top: 75%;
-  left: 12%;
+  text-align: center;
   font-family: 'Roboto';
   color: #FFFFFF;
   font-size: 40px;
   font-weight: 800;
-}
-
-.stick {
-position: absolute;
-width: 930px;
-height: 3px;
-left: 15%;
-top: 850px;
-background: #E97F04;
-transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-@media screen and (max-width: 2600px) and (min-width: 1600px) {
-  .title {
-    top: 25%;
-    font-size: 9em;
-    left: 37%;
-  }
-
-  .miniTitle {
-    top: 59%;
-    font-size: 3em;
-    left: 21%;
-  }
-
-  .stick {
-    width: 90em;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .title {
-    top: 45%;
-    font-size: 6em;
-    left: 35%;
-  }
-
-  .miniTitle {
-    top: 89%;
-    font-size: 2em;
-    left: 19%;
-  }
-
-  .stick {
-    width: 40em;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .title {
-    top: 45%;
-    font-size: 5em;
-    left: 32%;
-  }
-
-  .miniTitle {
-    top: 85%;
-    font-size: 24px;
-    left: 17%;
-  }
-
-  .stick {
-    width: 30em;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .title {
-    top: 37%;
-    font-size: 4em;
-    left: 18%;
-  }
-
-  .miniTitle {
-    top: 22em;
-    font-size: 22px;
-    left: 13%;
-    text-align: center;
-    width: 300px;
-  }
-
-  .stick {
-    width: 17em;
-  }
 }
