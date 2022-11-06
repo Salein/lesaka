@@ -1,6 +1,7 @@
 import React from "react"
 import style from './about.module.css'
 import stick from './stick.png'
+import firewood from './firewood.png'
 require('typeface-roboto')
 
 
@@ -10,6 +11,8 @@ const About = () => {
     <div className={style.about}>
       <img src={stick} alt='' className={style.stick} />
       <div className={ style.aboutUs}>
+        <img src={firewood} alt='' className={style.firewoods} />
+        <div className={style.content}>
         <h2 className={style.title}>О нас</h2>
         <p className={style.p}>Мы занимаемся заготовкой и доставкой целых и колотых дров больше 11 лет. У нас уже тысячи довольных клиентов, которые рекомендуют нас друзьям и знакомым.
         Мы поставляем исключительно качественную древесину. Доставляем товар автомобилем МАЗ 5551. 
@@ -19,8 +22,8 @@ const About = () => {
 
         <p className={style.p}>Нам важно качество, за более чем 11 лет каждый из наших покупателей, получил товар в целости и сохранности, 
         а главное вовремя.</p>
+        </div>
       </div>
-      <div className={style.bg}></div>
     </div>
   )
 }

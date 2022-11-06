@@ -1,32 +1,32 @@
-.about {
-  display: flex;
-  margin: 2em;
-}
-
 .stick {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 2px;
+  padding-top: 3em;
 }
 
 .aboutUs {
-margin-top: 3em;
+  display: flex;
+  margin-top: 1em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+}
 
-margin-left: 2em;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 38px;
+.firewoods {
+  margin: 2em;
+  width: 490px;
+  height: 475px;
+}
+
+.content {
+  margin-left: 2em;
 }
 
 .title {
   font-size: 46px;
   font-weight: 700;
-}
-
-.bg {
-background-image: url(firewood.png);
-margin-left: 6em;
-
-height: 575px;
-margin-top: 6em;
 }
