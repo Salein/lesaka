@@ -1,24 +1,28 @@
 .wrap {
   display: flex;
-  margin-top: 5em;
-  
-}
-
-.bg {
-  background: url(firePlice_bg.png);
-  
-  height: 379px;
-  margin-top: 1em;
+  margin-top: 7em;
   margin-left: 4em;
 }
 
+.stick {
+  margin-top: 1rem;
+  width: 2px;
+  height: 22em;
+  margin-left: 4em;
+}
+
+.firePlace {
+  width: 45%;
+  height: 400px;
+}
+
 .text {
-width: 40%;
-height: 551px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 1.5em;
-text-align: left;
+  width: 40%;
+  height: 551px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: left;
 }

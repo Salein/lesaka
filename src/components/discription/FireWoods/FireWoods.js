@@ -8,7 +8,6 @@ const FireWoods = () => {
   return(
     <div className={style.bg}>
       <h1 className={style.title}>Дрова</h1>
-      <span className={style.stick}></span>
       <p className={style.text}>Когда топишь камин дровами – наслаждаешься природным теплом.<br/>
         Дрова – самое сбалансированное топливо в плане экологии.<br/>
         Когда сжигают дерево выделяется столько углерода, сколько оно впитало за всю жизнь.<br/>
