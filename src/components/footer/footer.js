@@ -12,7 +12,7 @@ const Footer = () => {
                 <li className={style.unp}>УНП<br/>690782439</li>
             </ul>
             <ul>
-                <li className={style.title}>Режим работы </li>
+                <li className={style.title}>Режим работы</li>
                 <li className={style.list}>Пн-Вск 8:00-21:00</li>
                 <li className={style.list}>Беларусь, Минская область<br/>
                     Дзержинский район<br/>
