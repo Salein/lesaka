@@ -1,15 +1,15 @@
 import React from 'react'
 import style from './headline.module.css'
-
+import stick from './stick.png'
 
 
 const TitleLine = () => {
 
     return(
-        <div>
-            <span className={style.topStick}></span>
+        <div className={style.titleLine}>
+            <img src={stick} alt='' className={style.topStick} />
             <h1 className={style.title}>О тепле в вашем доме зимой лучше позаботиться заранее!</h1>
-            <span className={style.bottomStick}></span>
+            <img src={stick} alt='' className={style.bottomStick} />
         </div>
     )
 }

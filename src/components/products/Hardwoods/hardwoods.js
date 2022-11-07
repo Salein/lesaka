@@ -12,7 +12,7 @@ const Hardwoods = () => {
       <img src={hardwoods_img} alt='hardwoods' className={style.hardwood} />
       <h4 className={style.minititle}>Берёза, Ольха</h4>
       <p className={style.discription}> Лиственные породы являются наилучшими для топки печей, так как имеют более плотное структурное строение, что значительно увеличивает время их горения с постоянной высокой энергоотдачей.</p>
-      <span className={style.price}>Цена: <bold>90р</bold></span>
+      <div className={style.price}>Цена: <bold>90р</bold></div>
     </div>
   )
 }

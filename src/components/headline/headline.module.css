@@ -1,11 +1,16 @@
+.titleLine {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+}
 
+.topStick {
+    height: 3px;
+    width: auto;
+}
 
 .title {
-    
-    margin-top: 10%;
-    height: 72px;
-    margin-left: 7%;
-    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;

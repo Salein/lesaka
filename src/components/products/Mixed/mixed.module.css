@@ -20,13 +20,13 @@
 
 .discription {
   text-align: left;
-  margin-top: 60px;
   font-size: 18px;
-  padding: 20px;
+  margin: 90px 10px 50px 20px;
   font-family: 'Roboto';
 }
 
 .price {
+  margin: 5%;
   font-style: oblique;
   font-size: 19px;
   font-family: 'Roboto';
