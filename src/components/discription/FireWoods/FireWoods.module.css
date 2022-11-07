@@ -12,10 +12,11 @@
 .title {
   padding-top: 1em;
   margin-left: 10%;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 46px;
   color: #FFFFFF;
   font-family: 'Roboto';
+  font-style: normal;
 }
 
 
@@ -24,7 +25,7 @@
   padding-bottom: 1em;
   margin-left: 10%;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   color: #FFFFFF;
   font-family: 'Roboto';
 }
