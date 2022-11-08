@@ -9,6 +9,7 @@
   width: 2px;
   height: 22em;
   margin-left: 4em;
+  margin-right: 2em;
 }
 
 .firePlace {
@@ -18,7 +19,6 @@
 
 .text {
   width: 40%;
-  height: 551px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;

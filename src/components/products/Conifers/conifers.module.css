@@ -35,9 +35,9 @@
   font-style: oblique;
   font-size: 19px;
   font-family: 'Roboto';
-  
 }
 
 bold {
+  margin-left: 5px;
   color: orange;
 }
