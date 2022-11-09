@@ -57,3 +57,54 @@ color: #FFFFFF;
   font-size: 40px;
   font-weight: 800;
 }
+
+
+@media (max-width: 500px) {
+
+  .wrap {
+    display: inline-block;
+  }
+
+  .main {
+    height: 685px;
+  }
+  
+  .h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 1.5em;
+    font-family: 'Roboto';
+    color:#FFFFFF;
+  }
+  
+  .p {
+    font-size: 17px;
+    margin-left: 2em;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color:#FFFFFF;
+  }
+  
+  .contacts {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color:#FFFFFF;
+  }
+  
+  .title {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  color: #FFFFFF;
+  }
+  
+  .miniTitle {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
