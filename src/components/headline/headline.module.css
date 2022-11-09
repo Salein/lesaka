@@ -6,15 +6,27 @@
 }
 
 .topStick {
-    height: 3px;
-    width: auto;
+    height: 2px;
+    width: 70%;
+}
+
+.bottomStick {
+    width: 70%;
+    height: 2px;
 }
 
 .title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 72px;
     color: #000000;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
 }
