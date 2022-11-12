@@ -38,15 +38,21 @@
   font-weight: 600;
 }
 
-bold {
+span {
   margin-left: 5px;
   color: orange;
 }
 
 @media (max-width: 500px) {
+
+  .wrap {
+    height: 550px;
+    width: 300px;
+  }
+
   .conficers {
-    width: 80%;
-    height: 40%;
+    width: 70%;
+    height: 30%;
   }
   
   .title {

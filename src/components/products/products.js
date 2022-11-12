@@ -4,16 +4,20 @@ import Hardwoods from './Hardwoods/hardwoods'
 import Mixed from './Mixed/mixed'
 import style from './products.module.css'
 import { useMediaQuery } from 'react-responsive'
+import Swipers from './Swipers'
+
 
 const Products = () => {
 
-  const isDesktop = useMediaQuery({ query: '(min-width: 700px)' }) 
+  const isDesktop = useMediaQuery({ query: '(min-width: 600px)' }) 
   const isMobile = useMediaQuery({ query: '(max-width: 500px)' })
+  
   return(
     <div className={style.products}>
-      {isDesktop && <Hardwoods />} {isMobile && <Hardwoods />}
+      {isDesktop && <Hardwoods />}
       {isDesktop && <Conifers />}
-     {isDesktop && <Mixed />}
+      {isDesktop && <Mixed />}
+      {isMobile && <Swipers />}
     </div>
   )
 }

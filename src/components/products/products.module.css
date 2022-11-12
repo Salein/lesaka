@@ -8,5 +8,6 @@
 @media (max-width: 500px) {
     .products {
         height: 630px;
+        padding-top: 2em;
     }
 }
