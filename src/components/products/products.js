@@ -11,7 +11,7 @@ const Products = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 500px)' })
   return(
     <div className={style.products}>
-      {isDesktop && <Hardwoods />} || {isMobile && <Hardwoods />}
+      {isDesktop && <Hardwoods />} {isMobile && <Hardwoods />}
       {isDesktop && <Conifers />}
      {isDesktop && <Mixed />}
     </div>
