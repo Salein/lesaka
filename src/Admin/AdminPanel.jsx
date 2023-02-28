@@ -6,22 +6,25 @@ const AdminPanel = () => {
 
     
     return (
+        <div>
         <div className={style.wrapper}>
             <div className={style.wrap}>
-                <h1 className={style.title}>Хвойные породы</h1>
+                <span className={style.title}>Хвойные породы</span>
                 <label className={style.price}>Цена:</label>
                 <input type="number" className={style.conifers} />
             </div>
             <div className={style.wrap}>
-                <h1 className={style.title}>Лиственные породы</h1>
+                <span className={style.title}>Лиственные породы</span>
                 <label className={style.price}>Цена:</label>
                 <input type="number" className={style.hardwoods} />
             </div>
             <div className={style.wrap}>
-                <h1 className={style.title}>Смешанные породы</h1>
+                <span className={style.title}>Смешанные породы</span>
                 <label className={style.price}>Цена:</label>
                 <input type="number" className={style.mixed} />
             </div>
+        </div>
+            <button>Изменить цены</button>
         </div>
     )
 }
