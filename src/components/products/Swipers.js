@@ -18,7 +18,7 @@ const Swipers = () => {
         <>
         <Swiper
       modules={[Pagination]}
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={1}
       pagination={{ clickable: true }}
 >

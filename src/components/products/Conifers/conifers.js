@@ -3,7 +3,6 @@ import conifers_img from './conifers_img.png'
 import style from './conifers.module.css'
 
 
-
 const Conifers = () => {
 
   return(
@@ -12,7 +11,7 @@ const Conifers = () => {
       <img src={conifers_img} alt='conifers' className={style.conficers} />
       <h4 className={style.minititle}>Ель, Сосна</h4>
       <p className={style.discription}>Выделяются не только эфирные масла, но и смолы, которые идеально влияют на воздух в бане и способствуют оптимальной атмосфере внутри парилки.</p>
-      <div className={style.price}>Цена: <span>60р</span></div>
+      <div className={style.price}>Цена: <span>60</span></div>
     </div>
   )
 }
