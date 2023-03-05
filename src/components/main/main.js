@@ -9,7 +9,7 @@ const Main = () => {
     <div className={style.main}>
       <div className={style.wrap}>
         <div>
-          <h2 className={style.h2}>ЧПУП ​​​"ЛЕСАКА"</h2>
+          <span className={style.info}>ЧПУП ​​​"ЛЕСАКА"</span>
           <p className={style.p}>Дзержинский район <br/> д.Станьково, ул. Войсковая 4</p>
         </div>
         <div>

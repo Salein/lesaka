@@ -15,12 +15,17 @@
 }
 
 .title {
+  font-size: 36px;
+  margin: 10px 10px 15px 10px;
+  font-weight: 600;
   align-items: center;
   font-family: 'Roboto';
 }
 
 .minititle {
   font-size: 24px;
+  margin-top: 10px;
+  font-weight: 600;
   font-family: 'Roboto';
 }
 
@@ -39,7 +44,8 @@
   font-weight: 600;
 }
 
-span {
+.sum {
+  margin-left: 10px;
   color: orange;
 }
 

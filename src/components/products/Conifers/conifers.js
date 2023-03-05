@@ -7,11 +7,11 @@ const Conifers = () => {
 
   return(
     <div className={style.wrap}>
-      <h1 className={style.title}>Хвойные породы</h1>
+      <div className={style.title}>Хвойные породы</div>
       <img src={conifers_img} alt='conifers' className={style.conficers} />
-      <h4 className={style.minititle}>Ель, Сосна</h4>
+      <div className={style.minititle}>Ель, Сосна</div>
       <p className={style.discription}>Выделяются не только эфирные масла, но и смолы, которые идеально влияют на воздух в бане и способствуют оптимальной атмосфере внутри парилки.</p>
-      <div className={style.price}>Цена: <span>60</span></div>
+      <div className={style.price}>Цена: <span className={style.sum}>60р</span></div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const TitleLine = () => {
     return(
         <div className={style.titleLine}>
             <img src={stick} alt='' className={style.topStick} />
-            <h1 className={style.title}>О тепле в вашем доме зимой лучше позаботиться заранее!</h1>
+            <h5 className={style.title}>О тепле в вашем доме зимой лучше позаботиться заранее!</h5>
             <img src={stick} alt='' className={style.bottomStick} />
         </div>
     )

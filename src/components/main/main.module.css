@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 
-.h2 {
+.info {
   font-size: 36px;
   margin-top: 1em;
   margin-left: 1.5em;
@@ -69,7 +69,7 @@ color: #FFFFFF;
     height: 700px;
   }
   
-  .h2 {
+  .info {
     font-size: 20px;
     margin-top: 1rem;
     margin-left: 1.5em;

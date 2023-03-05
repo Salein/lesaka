@@ -8,11 +8,11 @@ const Hardwoods = () => {
 
   return(
     <div className={style.wrap}>
-      <h1 className={style.title}>Лиственные породы</h1>
+      <div className={style.title}>Лиственные породы</div>
       <img src={hardwoods_img} alt='hardwoods' className={style.hardwood} />
-      <h4 className={style.minititle}>Берёза, Ольха</h4>
+      <div className={style.minititle}>Берёза, Ольха</div>
       <p className={style.discription}> Лиственные породы являются наилучшими для топки печей, так как имеют более плотное структурное строение, что значительно увеличивает время их горения с постоянной высокой энергоотдачей.</p>
-      <div className={style.price}>Цена: <span>90р</span></div>
+      <div className={style.price}>Цена: <span className={style.sum}>90р</span></div>
     </div>
   )
 }

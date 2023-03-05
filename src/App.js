@@ -17,7 +17,7 @@ function App() {
       <Main />
       <About />
       <Discription />
-      <h1 className={style.title}>Продукция</h1>
+      <h4 className={style.title}>Продукция</h4>
       <Products />
       <TitleLine />
       <Footer />
