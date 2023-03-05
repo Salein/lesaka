@@ -1,38 +1,59 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Conifers from './../components/products/Conifers/conifers'
+import Hardwoods from './../components/products/Hardwoods/hardwoods'
+import Mixed from './../components/products/Mixed/mixed'
 import style from './AdminPanel.module.css'
 
 
 const AdminPanel = () => {
 
+    let [price, setPrice] = useState([
+        {conifers: 60},
+        {hardwoods: 90},
+        {mixed: 70}
+    ])
+
+    let [conifers, setConifers] = useState()
+    let [hardwoods, setHarwoods] = useState()
+    let [mixed, setMixed] = useState()
+
+    const addNewPrice = () => {
+        const priceChanged = {
+            conifers,
+            hardwoods,
+            mixed
+        }
+        setPrice(priceChanged)
+        setConifers('')
+        setHarwoods('')
+        setMixed('')
+    }
 
     return (
-        <div>
+        <div className={style.flexBtn}>
             <div className={style.wrapper}>
-                <div className={style.wrap}>
-                    <span className={style.title}>Хвойные породы</span>
-                    <div className={style.wr}>
-                        <label className={style.price}>Цена:</label>
-                        <input type="number" className={style.conifers} />
-                    </div>
-                </div>
-                <div className={style.wrap}>
-                    <span className={style.title}>Лиственные породы</span>
-                    <div className={style.wr}>
-                        <label className={style.price}>Цена:</label>
-                        <input type="number" className={style.hardwoods} />
-                    </div>
-                </div>
-                <div className={style.wrap}>
-                    <span className={style.title}>Смешанные породы</span>
-                    <div className={style.wr}>
-                        <label className={style.price}>Цена:</label>
-                        <input type="number" className={style.mixed} />
-                    </div>
-                </div>
+                <Conifers price={price}/>
+                <Hardwoods price={price} />
+                <Mixed price={price} />
             </div>
-            <div className={style.flexBtn}>
-                <button className={style.btn}>Изменить цены</button>
-            </div>
+            <input
+            value={conifers}
+            onChange={e => setConifers(e.target.value)}
+            placeholder='Введите цену...'
+            className={style.changePrice} />
+            <input
+             value={hardwoods}
+             onChange={e => setHarwoods(e.target.value)}
+             placeholder='Введите цену...'
+            className={style.changePrice} />
+            <input
+             value={mixed}
+             onChange={e => setMixed(e.target.value)}
+             placeholder='Введите цену...'
+            className={style.changePrice} />
+            <button
+            onClick={addNewPrice}
+            className={style.btn}>Изменить цену</button>
         </div>
     )
 }

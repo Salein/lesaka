@@ -11,7 +11,6 @@ require('typeface-roboto')
 
 function App() {
   
-
   return (
     <div className={style.app}>
       <Main />
